@@ -2,6 +2,7 @@
 #include <Eigen/Dense>
 int main()
 {
+    // example for array selection
     Eigen::VectorXi v = Eigen::VectorXi::Zero(5);
     v(0) = 1;
     v(1) = 2;
